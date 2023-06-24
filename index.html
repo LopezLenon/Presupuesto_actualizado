@@ -8,22 +8,22 @@
     }
 
     .slider-container {
-      margin-bottom: 40px;
+      margin-bottom: 20px;
     }
 
     .slider-label {
       font-weight: bold;
-      font-size: 36px;
+      font-size: 18px;
     }
 
     .slider-value {
       font-weight: bold;
-      font-size: 36px;
+      font-size: 18px;
       margin-left: 15px;
     }
     
     .slider {
-      width: 400px; /* Ajusta el ancho del deslizador según tu preferencia */
+      width: 600px; /* Ajusta el ancho del deslizador según tu preferencia */
       height: 60px; /* Ajusta la altura del deslizador según tu preferencia */
     }
 
@@ -40,7 +40,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      height: 50vh;
       text-align: center;
     }
   </style>
@@ -50,19 +50,19 @@
     <h1>Presupuesto orientativo</h1>
   
     <div class="slider-container">
-      <label class="slider-label">Calidad:</label>
+      <label class="slider-label">Cómo (ajuste a estilo del cliente):</label>
       <input type="range" id="calidad-slider" min="0" max="100" step="1" value="0">
       <span class="slider-value" id="calidad-value">0%</span>
     </div>
 
     <div class="slider-container">
-      <label class="slider-label">Rapidez:</label>
+      <label class="slider-label">Cuándo (rapidez o ajuste a plazos del cliente):</label>
       <input type="range" id="rapidez-slider" min="0" max="100" step="1" value="0">
       <span class="slider-value" id="rapidez-value">0%</span>
     </div>
 
     <div class="slider-container">
-      <label class="slider-label">Descuento:</label>
+      <label class="slider-label">Cuánto (descuento aplicado):</label>
       <input type="range" id="descuento-slider" min="0" max="100" step="1" value="0">
       <span class="slider-value" id="descuento-value">0%</span>
     </div>
